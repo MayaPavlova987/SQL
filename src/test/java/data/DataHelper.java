@@ -48,7 +48,7 @@ public class DataHelper {
         return new VerificationCode(FAKER.numerify("######"));
     }
 
-    // Дополнительные методы для тестов с неверными данными
+
     public static AuthInfo getAuthInfoWithInvalidLogin() {
         return new AuthInfo(generateRandomLogin(), "qwerty123");
     }
